@@ -21,7 +21,7 @@ for simulation, use the following command:
 
 in this case, input of the python file is the parameters, -n indicates number of particles, -d is the density, -t is the temperature, --dt and -Nstep is the simulation parameter, the time step and number of simulation steps.
 -o is the name of output file, which is solid.xyz
-
+![solid](https://github.com/up-or-down/Computer-Modelling-for-Lennard-Jones/blob/main/solid.gif)
 2、Gaseous Argon:Run the code with 30 particles, ρ = 0.05, T = 1.0, dt = 0.005 (in reduced units) for 2000 steps. 
 for simulation, use the following command:
 
@@ -39,4 +39,4 @@ you can run plot_xyz.py to generate 3d animation of particles using the followin
     python .\plot_xyz.py .\gas.xyz --3d -o gas.gif
 
 in this case, the filename after python .\plot_xyz.py is the input file, --3d means plot in 3D, -o is the name of output file, which is gas.gif. In addition, you can also use -s to denote number of steps per frame of the animation
-![gas](gas.gif)
+![gas](https://github.com/up-or-down/Computer-Modelling-for-Lennard-Jones/blob/main/gas.gif)
