@@ -22,6 +22,7 @@ for simulation, use the following command:
 in this case, input of the python file is the parameters, -n indicates number of particles, -d is the density, -t is the temperature, --dt and -Nstep is the simulation parameter, the time step and number of simulation steps.
 -o is the name of output file, which is solid.xyz
 ![solid](https://github.com/up-or-down/Computer-Modelling-for-Lennard-Jones/blob/main/solid.gif)
+
 2、Gaseous Argon:Run the code with 30 particles, ρ = 0.05, T = 1.0, dt = 0.005 (in reduced units) for 2000 steps. 
 for simulation, use the following command:
 
