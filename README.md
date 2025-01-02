@@ -1,4 +1,11 @@
 # Computer-Modelling-for-Lennard-Jones
+## Lennard Jones Interaction Potential
+Considering a model system interacting through the Lennard-Jones potential, a model for weakly-interacting neutral systems. Its attractive part is the leading $o (r^{-6})$ term of van der Waals interactions. The repulsive $o (r^{-12})$ term is a numerically simple way to model core-core repulsion. The potential energy of two particles at $\mathbf{r}_1$ and $\mathbf{r}_2$ may be written as：
+
+$$U(\mathbf{r}_1,\mathbf{r}_2) = 4\epsilon [(\frac{\sigma}{r})^{12}-(\frac{\sigma}{r})^{6}]$$
+
+where $r=|\mathbf{r}_1-\mathbf{r}_2|$. $\epsilon$ is the classical binding energy.
+
 ## Files included:
 cal_module.py: the python file for simulating LJ potential, including all of the functions needed for the experiment
 particle3D.py: the python file defining the Particle3D class
